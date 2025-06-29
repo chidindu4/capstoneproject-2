@@ -1,0 +1,160 @@
+.top {
+    background-color: #34CDFA;
+    position: relative; 
+    height: 750px;
+}
+
+
+h1 {
+  font-family: "Comic Neue", cursive;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 85px;
+  color: #135a70;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Dancing Script", cursive;
+  font-weight: 450px;
+  font-style: normal;
+  font-size: 50px;  
+  color: aliceblue;
+  text-align: center;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.top-sun {
+   position: relative;
+   top: 40px;
+   width: 500px;
+   height: auto;
+
+}
+.top-cloud {
+    position: absolute;
+    left: 72%;
+    top: 50px;
+    width: 400px;
+    height: auto;
+}
+
+.palm-tree {
+    position: absolute;
+    left: 65%;
+    bottom: 10px;
+    width: 600px;    
+    height: auto;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+.profile-img {
+    height: 200px;   
+    width: 200px;
+    border-radius: 50%;
+    
+}
+h3 {
+    font-family: "Dancing Script", cursive;
+    font-weight: 450px;
+    font-style: normal;
+    font-size: 60px;  
+    color: #135a70;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.first-intro {
+    text-align: center;
+    font-size: larger;
+}
+
+hr {
+    border: dotted #F6F2EB;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.skill {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr;
+    row-gap: 2rem;
+    width: 50%;
+    margin: 50px auto 0 auto;
+}
+
+h4 {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  color: #135a70;
+}
+
+.btn {
+    background-color: #135a70;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+}
+.contact-message {
+    margin-bottom: 50px;
+}
+
+a {
+    margin: 10px 20px;
+}
+.contact-me {
+    text-align: center;
+}
+
+.bottom-container {
+    text-align: center;
+    margin-top: 100px;
+    background-color: #34CDFA;
+    padding: 50px 0 20px;
+}
+
+.footer-link {
+    color: #135a70;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+}
+.copyright {
+    padding-top: 30px;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+   .top-sun, .top-cloud, .palm-tree {
+    width: 400px;
+    height: 250px;
+ }
+}
+
+@media (max-width: 480px) {
+    .top-sun, .top-cloud, .palm-tree {
+        width: 300px;
+        height: 150px;
+    }
+}
+
+ 
+
